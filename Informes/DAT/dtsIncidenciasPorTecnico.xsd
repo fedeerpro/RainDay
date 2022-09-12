@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dtsIncidenciasPorTecnico" targetNamespace="http://tempuri.org/dtsIncidenciasPorTecnico.xsd" xmlns:mstns="http://tempuri.org/dtsIncidenciasPorTecnico.xsd" xmlns="http://tempuri.org/dtsIncidenciasPorTecnico.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dtsIncidenciasPorTecnico" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dtsIncidenciasPorTecnico" msprop:Generator_UserDSName="dtsIncidenciasPorTecnico">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="IncidenciasPorTecnico" msprop:Generator_TableClassName="IncidenciasPorTecnicoDataTable" msprop:Generator_TableVarName="tableIncidenciasPorTecnico" msprop:Generator_TablePropName="IncidenciasPorTecnico" msprop:Generator_RowDeletingName="IncidenciasPorTecnicoRowDeleting" msprop:Generator_RowChangingName="IncidenciasPorTecnicoRowChanging" msprop:Generator_RowEvHandlerName="IncidenciasPorTecnicoRowChangeEventHandler" msprop:Generator_RowDeletedName="IncidenciasPorTecnicoRowDeleted" msprop:Generator_UserTableName="IncidenciasPorTecnico" msprop:Generator_RowChangedName="IncidenciasPorTecnicoRowChanged" msprop:Generator_RowEvArgName="IncidenciasPorTecnicoRowChangeEvent" msprop:Generator_RowClassName="IncidenciasPorTecnicoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdIncidencia" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnIdIncidencia" msprop:Generator_ColumnPropNameInRow="IdIncidencia" msprop:Generator_ColumnPropNameInTable="IdIncidenciaColumn" msprop:Generator_UserColumnName="IdIncidencia" type="xs:int" minOccurs="0" />
+              <xs:element name="Fecha_Apertura" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnFecha_Apertura" msprop:Generator_ColumnPropNameInRow="Fecha_Apertura" msprop:Generator_ColumnPropNameInTable="Fecha_AperturaColumn" msprop:Generator_UserColumnName="Fecha_Apertura" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Tipo" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo" type="xs:string" minOccurs="0" />
+              <xs:element name="Estado" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnEstado" msprop:Generator_ColumnPropNameInRow="Estado" msprop:Generator_ColumnPropNameInTable="EstadoColumn" msprop:Generator_UserColumnName="Estado" type="xs:string" minOccurs="0" />
+              <xs:element name="Criticidad" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnCriticidad" msprop:Generator_ColumnPropNameInRow="Criticidad" msprop:Generator_ColumnPropNameInTable="CriticidadColumn" msprop:Generator_UserColumnName="Criticidad" type="xs:string" minOccurs="0" />
+              <xs:element name="IdEmpleado" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnIdEmpleado" msprop:Generator_ColumnPropNameInRow="IdEmpleado" msprop:Generator_ColumnPropNameInTable="IdEmpleadoColumn" msprop:Generator_UserColumnName="IdEmpleado" type="xs:int" minOccurs="0" />
+              <xs:element name="Empleado" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnEmpleado" msprop:Generator_ColumnPropNameInRow="Empleado" msprop:Generator_ColumnPropNameInTable="EmpleadoColumn" msprop:Generator_UserColumnName="Empleado" type="xs:string" minOccurs="0" />
+              <xs:element name="IdCliente" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnIdCliente" msprop:Generator_ColumnPropNameInRow="IdCliente" msprop:Generator_ColumnPropNameInTable="IdClienteColumn" msprop:Generator_UserColumnName="IdCliente" type="xs:int" minOccurs="0" />
+              <xs:element name="Cliente" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnCliente" msprop:Generator_ColumnPropNameInRow="Cliente" msprop:Generator_ColumnPropNameInTable="ClienteColumn" msprop:Generator_UserColumnName="Cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="IdTecnico" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnIdTecnico" msprop:Generator_ColumnPropNameInRow="IdTecnico" msprop:Generator_ColumnPropNameInTable="IdTecnicoColumn" msprop:Generator_UserColumnName="IdTecnico" type="xs:int" minOccurs="0" />
+              <xs:element name="Tecnico" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnTecnico" msprop:Generator_ColumnPropNameInRow="Tecnico" msprop:Generator_ColumnPropNameInTable="TecnicoColumn" msprop:Generator_UserColumnName="Tecnico" type="xs:string" minOccurs="0" />
+              <xs:element name="IdEquipo" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnIdEquipo" msprop:Generator_ColumnPropNameInRow="IdEquipo" msprop:Generator_ColumnPropNameInTable="IdEquipoColumn" msprop:Generator_UserColumnName="IdEquipo" type="xs:int" minOccurs="0" />
+              <xs:element name="Equipo" msprop:Generator_ColumnVarNameInTable="columnEquipo" msprop:Generator_ColumnPropNameInRow="Equipo" msprop:Generator_ColumnPropNameInTable="EquipoColumn" msprop:Generator_UserColumnName="Equipo" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha_Cierre" msprop:Generator_ColumnVarNameInTable="columnFecha_Cierre" msprop:Generator_ColumnPropNameInRow="Fecha_Cierre" msprop:Generator_ColumnPropNameInTable="Fecha_CierreColumn" msprop:Generator_UserColumnName="Fecha_Cierre" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
